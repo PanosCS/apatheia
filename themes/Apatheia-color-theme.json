@@ -2,10 +2,51 @@
 	"name": "Apatheia",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		/*
+		https: //juhanajauhiainen.com/posts/how-to-create-your-own-vscode-theme
+			 === NORD ===
+		 	Background color: #2e3440
+			Foreground color: #d8dee9
+
+			Inactive: #434c5e TOO BRIGHT
+
+			=== DRACULA ===
+			Background: #282A36
+			Foreground:	#F8F8F2
+			Selection:	#44475A
+
+			Inactive: #44475A75 ... Line highlight
+		*/
+		"editor.background": "#2e3440",
+		"editor.foreground": "#d8dee9",
+		"editor.lineHighlightBackground": "#3b4252",
+		"editorCursor.foreground": "#d8dee9",
+		// Activity Bar
+		"activityBar.background": "#2e3440",
+		"activityBar.inactiveForeground": "#6272A4",
+		"activityBar.foreground": "#F8F8F2",
+		"activityBarBadge.background": "#FF79C6",
+		"activityBarBadge.foreground": "#F8F8F2",
+		// Side bar configs
+		"sideBar.background": "#2e3440",
+		"sideBar.foreground": "#d8dee9",
+		"sideBarTitle.foreground": "#d8dee9",
+		"sideBarSectionHeader.background": "#282A36",
+		"list.activeSelectionBackground": "#44475A",
+		"list.activeSelectionForeground": "#d8dee9",
+		// Change
+		"list.inactiveSelectionBackground": "#434c5e",
+		"list.inactiveSelectionForeground": "#d8dee9",
+		"list.highlightForeground": "#ff0000",
+		"list.hoverBackground": "#3b4252",
+		// Buttons
+		"button.background": "#44475A",
+		// Status Bar
+		"statusBar.background": "#282A36",
+		"statusBar.debuggingBackground": "#ff0000",
+		// Title Bar
+		"titleBar.activeBackground": "#2e3440",
+		"titleBar.activeForeground": "#d8dee9"
 	},
 	"tokenColors": [
 		{
@@ -76,7 +117,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#2cb092"
 			}
 		},
 		{
