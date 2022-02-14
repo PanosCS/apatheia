@@ -1,37 +1,38 @@
 {
 	"name": "Apatheia",
 	"type": "dark",
+	"semanticHighlighting": true,
 	"colors": {
-		/*
-		https: //juhanajauhiainen.com/posts/how-to-create-your-own-vscode-theme
-			 === NORD ===
-		 	Background color: #2e3440
-			Foreground color: #d8dee9
-
-			Inactive: #434c5e TOO BRIGHT
-
-			=== DRACULA ===
-			Background: #282A36
-			Foreground:	#F8F8F2
-			Selection:	#44475A
-
-			Inactive: #44475A75 ... Line highlight
-		*/
-		"editor.background": "#2e3440",
+		// Base colors
+		"focusBorder": "#3b4252",
+		"foreground": "#d8dee9",
+		"widget.shadow": "#7a8181ad",
+		// TODO: Poosible fix
+		"selection.background": "#d8dee9",
+		// "descriptionForeground": "#d8dee9",
+		// "errorForeground": "#d8dee9",
+		// "icon.foreground": "#d8dee9",
+		// "sash.hoverBorder": "#d8dee9",
+		// Editor
+		"editor.background": "#292e39",
 		"editor.foreground": "#d8dee9",
-		"editor.lineHighlightBackground": "#3b4252",
+		// "editor.lineHighlightBackground": "#3b4252",
+		"editor.lineHighlightBorder": "#3b4252",
 		"editorCursor.foreground": "#d8dee9",
 		// Activity Bar
-		"activityBar.background": "#2e3440",
-		"activityBar.inactiveForeground": "#6272A4",
-		"activityBar.foreground": "#F8F8F2",
-		"activityBarBadge.background": "#FF79C6",
+		"activityBar.background": "#292e39",
+		"activityBar.dropBorder": "#d8dee9",
+		"activityBar.inactiveForeground": "#7b7f8b",
+		// "activityBar.foreground": "#F8F8F2",
+		"activityBar.activeBorder": "#00838d",
+		"activityBar.activeBackground": "#3b4252",
+		"activityBarBadge.background": "#00838d",
 		"activityBarBadge.foreground": "#F8F8F2",
 		// Side bar configs
-		"sideBar.background": "#2e3440",
+		"sideBar.background": "#252933",
 		"sideBar.foreground": "#d8dee9",
 		"sideBarTitle.foreground": "#d8dee9",
-		"sideBarSectionHeader.background": "#282A36",
+		"sideBarSectionHeader.background": "#292e39",
 		"list.activeSelectionBackground": "#44475A",
 		"list.activeSelectionForeground": "#d8dee9",
 		// Change
@@ -42,11 +43,42 @@
 		// Buttons
 		"button.background": "#44475A",
 		// Status Bar
-		"statusBar.background": "#282A36",
+		"statusBar.background": "#292e39",
 		"statusBar.debuggingBackground": "#ff0000",
+		"statusBar.noFolderBackground": "#ff0000",
+		"statusBar.border": "#252933",
+		"sideBar.border": "#252933",
+		"activityBar.border": "#252933",
 		// Title Bar
-		"titleBar.activeBackground": "#2e3440",
-		"titleBar.activeForeground": "#d8dee9"
+		"titleBar.activeBackground": "#292e39",
+		// "titleBar.activeForeground": "#d8dee9",
+		"titleBar.inactiveBackground": "#252933",
+		// Tabs & Editor Groups
+		"tab.inactiveBackground": "#252933",
+		"tab.activeBorderTop": "#00838d",
+		"editorGroupHeader.tabsBackground": "#252933",
+		// Terminal NORD
+		"terminal.border": "#d8dee9",
+		"panel.border": "#00838d",
+		"panelTitle.activeBorder": "#00838d",
+		"terminal.foreground": "#d8dee9",
+		"terminal.ansiBlack": "#3b4252",
+		"terminal.ansiRed": "#bf616a",
+		"terminal.ansiGreen": "#a3be8c",
+		"terminal.ansiYellow": "#ebcb8b",
+		"terminal.ansiBlue": "#81a1c1",
+		"terminal.ansiMagenta": "#b48ead",
+		"terminal.ansiCyan": "#88c0d0",
+		"terminal.ansiWhite": "#e5e9f0",
+		"terminal.ansiBrightBlack": "#4c566a",
+		"terminal.ansiBrightRed": "#bf616a",
+		"terminal.ansiBrightGreen": "#a3be8c",
+		"terminal.ansiBrightYellow": "#ebcb8b",
+		"terminal.ansiBrightBlue": "#81a1c1",
+		"terminal.ansiBrightMagenta": "#b48ead",
+		"terminal.ansiBrightCyan": "#8fbcbb",
+		"terminal.ansiBrightWhite": "#eceff4",
+		"terminal.tab.activeBorder": "#88c0d0",
 	},
 	"tokenColors": [
 		{
