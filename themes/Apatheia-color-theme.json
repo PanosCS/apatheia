@@ -6,30 +6,26 @@
 		// Base colors
 		"focusBorder": "#3b4252",
 		"foreground": "#d8dee9",
-		"widget.shadow": "#7a8181ad",
-		// TODO: Poosible fix
+		// "widget.shadow": "#7a8181ad",
+		// TODO: Possible fix
 		"selection.background": "#d8dee9",
-		// "descriptionForeground": "#d8dee9",
-		// "errorForeground": "#d8dee9",
-		// "icon.foreground": "#d8dee9",
-		// "sash.hoverBorder": "#d8dee9",
 		// Editor
-		"editor.background": "#292e39",
+		"editor.background": "#1b222d",
 		"editor.foreground": "#d8dee9",
 		// "editor.lineHighlightBackground": "#3b4252",
 		"editor.lineHighlightBorder": "#3b4252",
 		"editorCursor.foreground": "#d8dee9",
 		// Activity Bar
-		"activityBar.background": "#292e39",
+		"activityBar.background": "#1b222d",
 		"activityBar.dropBorder": "#d8dee9",
 		"activityBar.inactiveForeground": "#7b7f8b",
-		// "activityBar.foreground": "#F8F8F2",
+		"activityBar.foreground": "#d8dee9",
 		"activityBar.activeBorder": "#00838d",
 		"activityBar.activeBackground": "#3b4252",
 		"activityBarBadge.background": "#00838d",
 		"activityBarBadge.foreground": "#F8F8F2",
 		// Side bar configs
-		"sideBar.background": "#252933",
+		"sideBar.background": "#1a212c",
 		"sideBar.foreground": "#d8dee9",
 		"sideBarTitle.foreground": "#d8dee9",
 		"sideBarSectionHeader.background": "#292e39",
@@ -61,6 +57,7 @@
 		"terminal.border": "#d8dee9",
 		"panel.border": "#00838d",
 		"panelTitle.activeBorder": "#00838d",
+		/*
 		"terminal.foreground": "#d8dee9",
 		"terminal.ansiBlack": "#3b4252",
 		"terminal.ansiRed": "#bf616a",
@@ -79,6 +76,7 @@
 		"terminal.ansiBrightCyan": "#8fbcbb",
 		"terminal.ansiBrightWhite": "#eceff4",
 		"terminal.tab.activeBorder": "#88c0d0",
+		*/
 	},
 	"tokenColors": [
 		{
@@ -90,6 +88,23 @@
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#546E7A"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#C3E88D",
+			}
+		},
+		{
+			"name": "String Quoted",
+			"scope": [
+				"string.quoted",
+				"variable.other.readwrite.js",
+			],
+			"settings": {
+				"foreground": "#C3E88D",
 			}
 		},
 		{
@@ -133,6 +148,16 @@
 			}
 		},
 		{
+			"name": "Punctuation Definition String",
+			"scope": [
+				"punctuation.definition.string"
+			],
+			"settings": {
+				"foreground": "#C3E88D",
+				// "fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Operator, Misc",
 			"scope": [
 				"keyword.control",
@@ -149,7 +174,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#2cb092"
+				"foreground": "#DDB3FF"
 			}
 		},
 		{
@@ -214,7 +239,7 @@
 		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
 			"scope": [
-				"string",
+				// "string",
 				"constant.other.symbol",
 				"constant.other.key",
 				"entity.other.inherited-class",
